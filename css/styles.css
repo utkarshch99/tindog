@@ -1,0 +1,164 @@
+
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Montserrat;
+}
+p{
+  font-family: Montserrat;
+  color: #afafaf;
+}
+
+/* HEADINGS */
+
+.big-heading{
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CONTAINER */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* NAV BAR */
+
+.navbar{
+  padding: 0 0 4.5rem
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  margin-left: 0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+/* Download buttons */
+
+.dwnld-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE SECTION */
+
+.title-img{
+  width: 100%;
+  padding-left: 15%;
+}
+
+#title .container-fluid{
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* Features Secton */
+
+#features{
+  background-color: #fff;
+}
+.feature-icons{
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+}
+.icon:hover{
+  cursor: pointer;
+  color: #ff4c68;
+}
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Testimonial section */
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press{
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 10px 50px 0 50px;
+}
+
+/* PRICING */
+
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-title{
+  font-size: 1.75rem;
+  font-weight: bolder;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+  }
+}
+
+/* CTA Section */
+
+#cta .container-fluid{
+  padding: 7% 15% 1% 15%;
+}
+.cta-btn{
+  margin: 5% 0 0 1%;
+}
+
+.f-icon{
+  margin: 0 10px 0 10px;
+}
